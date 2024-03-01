@@ -164,3 +164,18 @@ git branch -M main
 ```sh
 git push -u origin main
 ```
+
+### Выгрузка инфы из GitHub на комп
+```sh
+git pull
+```
+
+### Создание копии репозитория в GitHub для дальнейшего редактирования
+```sh
+Кнопка fork в GitHub
+```
+
+### Добавление форкнутого репозитория локальную папку (на комп)
+```sh
+git clone https://github.com/CanUFeelMyHeart/brave3690.git
+```
