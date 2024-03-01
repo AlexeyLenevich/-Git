@@ -149,4 +149,18 @@ git branch pie1
 Например:
 ![Красивый вид](vid.jpg)
 
+## Работа с удалёнными репозиториями
 
+### Выбор репозитория для выгрузки
+```sh
+git remote add origin https://github.com/AlexeyLenevich/AttestationGit.git
+```
+### Определение основной ветки репозитория
+```sh
+git branch -M main
+```
+
+### Загрузка / обнолвение инфы на GitHub
+```sh
+git push -u origin main
+```
